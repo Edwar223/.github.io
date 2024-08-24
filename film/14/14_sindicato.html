@@ -63,6 +63,22 @@ h3{
     color: bisque;
     font-size: 40px;
 }
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: start; /* Centra la imagen y el texto */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: inherit; /* Mantiene el color del texto */
+}
+.imagen-ajustada {
+    width: 100px; /* Cambia el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+.home span {
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+    font-size: 16px; /* Tamaño del texto */
+}
+
 p{
     margin: 100px;
     text-align: center;
@@ -72,6 +88,10 @@ p{
     
 </head>
 <body>
+    <a class="home" href="../../index.html">
+        <img src="../../Images/Sombrero_023.jpg" title="El Patrón del Cine" class="imagen-ajustada" />
+        <span>El Patrón del Cine</span>
+    </a> 
     <h1>El sindicato</h1>
     <h2>DESCARGA DE FORMA SEGURA</h2>
     <h3>En Español Latino</h3>
@@ -88,5 +108,8 @@ p{
         <a href="paste_14.html">Descarga aquí</a>
         <p>La clave es "elpatrondelcine"</p>
     </div>
-   
+    <a class="home" href="../../index.html">
+        <img src="../../Images/Sombrero_023.jpg" title="El Patrón del Cine" class="imagen-ajustada" />
+        <span>El Patrón del Cine</span>
 </body>
+</html>
