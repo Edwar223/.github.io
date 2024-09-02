@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="El patrón del cine" content="Tutorial de descarga de peliculas">
-    <meta name="keywords" content="gratis, descargar, peluculas, 2024, cine, film">
+    <meta name="description" content="La patrona de la moda - Tienda Online">
+    <meta name="keywords" content="ropa, para, damas, caballeros, y, niños">
     <meta name="author" content="Compañia Anónima">
-    <meta name="OG: title" content="El patron del cine">
-    <meta name="OG: image" content="">
-    <meta name="OG:description" content="">
-    <title>El Patrón del Cine</title>
+    <meta property="og:title" content="La patrona de la moda">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="">
+    <title>La patrona de la moda</title>
     <link rel="icon" href="icon_32_44.jpg">
     <style>
         body {
@@ -18,20 +18,27 @@
             margin: 0;
             padding: 20px;
         }
-        h1{
-    text-align: center;
-    background-color: black;
-    padding: auto;
-    color: bisque;
-    font-style: italic;
-}
-h2{
-    text-align: center;
-    background-color: black;
-    padding: auto;
-    color: bisque;
-    font-style: italic;
-}
+        h1 {
+            text-align: center;
+            background-color: black;
+            padding: auto;
+            color: bisque;
+            font-style: italic;
+        }
+        h2 {
+            text-align: center;
+            background-color: black;
+            padding: auto;
+            color: bisque;
+            font-style: italic;
+        }
+        h3 {
+            text-align: center;
+            background-color: black;
+            padding: auto;
+            color: bisque;
+            font-style: italic;
+        }
         .contenedor {
             display: flex;
             flex-wrap: wrap;
@@ -52,153 +59,157 @@ h2{
             margin-top: 10px;
             font-size: 16px;
         }
-        .imagenes-horizontal {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
-
-.imagenes-horizontal img {
+        .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
     width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    text-align: center;
+    max-width: 90%;
+    max-height: 90%;
+    overflow: auto;
+}
+.modal-content img {
+    width: auto;
     height: auto;
+    max-width: 100%;
+    max-height: 80vh;
 }
 
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .whatsapp-button {
+            display: inline-block;
+            margin-bottom: 10px;
+            padding: 10px 20px;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;}
     </style>
 </head>
 <body>
-    <!-- Inicio del código del banner de ouo.io --> 
-<a href="http://ouo.io/ref/sJ1DxSUt" target="noopener noreferrer nofollow"><img src="Images/banner_oio.webp" title="ouo.io - Crea enlaces cortos y gana el mayor dinero" /></a> 
-<!-- Fin del código del banner de ouo.io -->
-    <div class="imagenes-horizontal">
-        <a href="film/18/18_dp3.html">
-            <img src="film/18/18_dp3.jpg" alt="Deadpool y Lobezno" class="imagen">
-            <div class="texto">Deadpool y Lobezno</div>
-        </a>
-        <a href="film/16/16_intensamente.html">
-            <img src="film/16/16_intensamente_2_.jfif" alt="Intensamente 2" class="imagen">
-            <div class="texto">Intensamente 2</div>
-        </a>
-        <a href="film/11/11_villano.html">
-            <img src="film/11/11_villano.jpg" alt="Mi villano favorito 4" class="imagen">
-            <div class="texto">Mi villano favorito 4</div>
-        </a>
-        <a href="film/0l">
-            <img src="Images/0" alt="" class="imagen">
-            <div class="texto"></div>
-        </a>
-       
-    </div>
-    <h1>EL PATRÓN DEL CINE</h1>
-    <h2>Página en constante actualización</h2>
+    <h1>LA PATRONA DE LA MODA</h1>
+    <h2>Ropa para damas, caballeros y niños</h2>
+    <h3>Tienda Online exclusiva para todo el estado Apure, Delivery y entrega inmediata</h3>
 
     <div class="contenedor">
-        <a href="film/14/14_sindicato.html">
-            <img src="film/14/14_the_union.jpg" alt="El sindicato" class="imagen">
-            <div class="texto">El sindicato</div>
+        <a href="#" class="open-modal" data-info="Medias tobilleras de damas<br> SORELA LADIES ANKLE SOCK <br> talla: 9-11 <br> País de Origen: Indonesia <br> 95% Poliéster y 5% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/a_01.jpg">
+            <img src="images/a_01.jpg" alt="Medias tobilleras de damas" class="imagen">
+            <div class="texto">Medias tobilleras de damas
+                <br>Ref:0001
+                <br> 1 docena 3.5$
+                <br> 10 docenas 30$
+                <br> 100 docenas 250$
+            </div>
+            <span class="whatsapp-button">Comprar por WhatsApp</span>
         </a>
-
-        <a href="film/13/13_fly.html">
-            <img src="film/13/13_fly_me_to_the_moon.jpg" alt="La otra cara de la luna" class="imagen">
-            <div class="texto">La otra cara de la luna</div>
+        <a href="#" class="open-modal" data-info="Medias tobilleras de Caballeros<br> OK M MEN SOCK <br> talla: 9-11 <br> País de Origen: China<br> 80% Algodon, 15% poliester y 5% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/b_01.jpg">
+            <img src="images/b_01.jpg" alt="Medias tobilleras de Caballeros" class="imagen">
+            <div class="texto">Medias tobilleras de Caballeros
+                <br> Ref:0002
+                <br> 1 docena 3.5$
+                <br> 10 docenas 30$
+                <br> 100 docenas 250$
+            </div>
+            <span class="whatsapp-button">Comprar por WhatsApp</span>
         </a>
-
-        <a href="film/12/12_vi_el_btrillo.html">
-            <img src="film/12/12_I_saw_the_tv.jpg" alt="Vi el brillo del televisor" class="imagen">
-            <div class="texto">Vi el brillo del televisor</div>
+        <a href="#" class="open-modal" data-info="Medias tobilleras de niños<br> VEKO <br> talla: 6-8 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/c_01.jpg">
+            <img src="images/c_01.jpg" alt="Medias tobilleras de niños" class="imagen">
+            <div class="texto">Medias tobilleras de niños
+                <br> Ref: 0003
+                <br> 1 docena 3.5$
+                <br> 10 docenas 30$
+                <br> 100 docenas 250$
+            </div>
+            <span class="whatsapp-button">Comprar por WhatsApp</span>
         </a>
-
-        <a href="film/07_tw.html">
-            <img src="Images/07_twisters.jpg" alt="Twisters" class="imagen">
-            <div class="texto">Twisters</div>
+        <a href="#" class="open-modal" data-info="Medias tobilleras de niñas<br> DANIA GIRLS <br> talla: 6-8 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/d_01.jpg">
+            <img src="images/d_01.jpg" alt="Medias tobilleras de niñas" class="imagen">
+            <div class="texto">Medias tobilleras de niñas
+                <br> Ref:0004
+                <br> 1 docena 3.5$
+                <br> 10 docenas 30$
+                <br> 100 docenas 250$
+            </div>
+            <span class="whatsapp-button">Comprar por WhatsApp</span>
         </a>
-    </div>
-
-    <div class="contenedor">
-        <a href="film/01_the_mistery.html">
-            <img src="Images/01_the_ministry_of_ungentlemanly_warfare.jpg" alt="El Misterio de la Guerra Sucia" class="imagen">
-            <div class="texto">El Misterio de la Guerra Sucia</div>
-        </a>
-
-        <a href="film/02_the_eternal.html">
-            <img src="Images/02_my_spy_the_eternal_city.jpg" alt="Juego de espías: La ciudad eterna" class="imagen">
-            <div class="texto">Juego de espías: La ciudad eterna</div>
-        </a>
-
-        <a href="film/03_bad_boy.html">
-            <img src="Images/03_bad_boys_ride_or_die.jpg" alt="Bad Boys: Hasta la muerte" class="imagen">
-            <div class="texto">Bad Boys: Hasta la muerte</div>
-        </a>
-
-        <a href="film/04_simio.html">
-            <img src="Images/04_kingdom_of_the_planet_of_the_apes.jpg" alt="El planeta de los simios: Nuevo reino" class="imagen">
-            <div class="texto">El planeta de los simios: Nuevo reino</div>
-        </a>
-    </div>
-
-    <div class="contenedor">
-        <a href="film/06_kong.html">
-            <img src="Images/06_godzilla_kong_.jpg" alt="Godzilla y Kong: El nuevo imperio" class="imagen">
-            <div class="texto">Godzilla y Kong: El nuevo imperio</div>
-        </a>
-
-        <a href="film/05_furiosa.html">
-            <img src="Images/05_furiosa_a_mad_max_saga.jpg" alt="Furiosa: De la saga Mad Max" class="imagen">
-            <div class="texto">Furiosa: De la saga Mad Max</div>
-        </a>
-
-        <a href="film/08/08_die.html">
-            <img src="film/08/08_die_hart_2_die_harter.jpg" alt="Muere, Hart 2: Doble o nada" class="imagen">
-            <div class="texto">Muere, Hart 2: Doble o nada</div>
-        </a>
-
-        <a href="film/09/09_doble.html">
-            <img src="film/09/09_the_fall_guy.jpg" alt="El especialista" class="imagen">
-            <div class="texto">El especialista</div>
+        <a href="#" class="open-modal" data-info="Medias escolares de niñas (blancas)<br> SORELA GIRLS <br> tallas: S, M, L, XL <br> País de Origen: Indonesia <br> 95% Poliéster y 5% elastano<br>1 docena 8$<br>10 docenas 75$<br>100 docenas 700$" data-img="images/e_01.jpg">
+            <img src="images/e_01.jpg" alt="Medias tobilleras de damas" class="imagen">
+            <div class="texto">Medias tobilleras de damas
+                <br>Ref:0005
+                <br> 1 docena 8$
+                <br> 10 docenas 75$
+                <br> 100 docenas 700$
+            </div>
+            <span class="whatsapp-button">Comprar por WhatsApp</span>
         </a>
     </div>
 
-    <div class="contenedor">
-        <a href="film/10/10_ghost.html">
-            <img src="film/10/10_ghostbusters.jpg" alt="Cazafantasmas: Imperio helado" class="imagen">
-            <div class="texto">Cazafantasmas: Imperio helado</div>
-        </a>
-
-        <a href="film/15/15_arthur.html">
-            <img src="film/15/15_arthur.jpg" alt="Arthur" class="imagen">
-            <div class="texto">Arthur</div>
-        </a>
-
-        <a href="film/17/17_amelia.html">
-            <img src="film/17/17_amelia_s_children.jpg" alt="Herencia siniestra" class="imagen">
-            <div class="texto">Herencia siniestra</div>
-        </a>
-
-        <a href="film/0l">
-            <img src="Images/0" alt="" class="imagen">
-            <div class="texto"></div>
-        </a>
-    </div>
-    <div class="contenedor">
-        <a href="film/0">
-            <img src="Images/0" alt="" class="imagen">
-            <div class="texto"></div>
-        </a>
-
-        <a href="film/0">
-            <img src="Images/0" alt="" class="imagen">
-            <div class="texto"></div>
-        </a>
-
-        <a href="film/0">
-            <img src="Images/0" alt="" class="imagen">
-            <div class="texto"></div>
-        </a>
-
-        <a href="film/0l">
-            <img src="Images/0" alt="" class="imagen">
-            <div class="texto"></div>
-        </a>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">×</span>
+            <img id="modal-img" src="" alt="Imagen del producto">
+            <div id="modal-info"></div>
+        </div>
     </div>
 
+    <script>
+        document.querySelectorAll('.open-modal').forEach(item => {
+            item.addEventListener('click', event => {
+                event.preventDefault();
+                document.getElementById('modal-info').innerHTML = item.getAttribute('data-info');
+                document.getElementById('modal-img').src = item.getAttribute('data-img');
+                document.getElementById('myModal').style.display = "block";
+            });
+        });
+
+        document.querySelector('.close').addEventListener('click', () => {
+            document.getElementById('myModal').style.display = "none";
+        });
+
+        window.addEventListener('click', event => {
+            if (event.target == document.getElementById('myModal')) {
+                document.getElementById('myModal').style.display = "none";
+            }
+        });
+        document.querySelectorAll('.whatsapp-button').forEach(button => {
+            button.addEventListener('click', event => {
+                event.preventDefault();
+                const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+                const phoneNumber = "584243543264"; // Reemplaza con tu número de WhatsApp
+                if (isMobile) {
+                    window.location.href = `https://wa.me/${phoneNumber}`;
+                } else {
+                    alert(`Comunícate con nosotros al número: +${phoneNumber}`);
+                }
+            });
+        });
+    </script>
 </body>
 </html>
+
+
