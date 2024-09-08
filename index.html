@@ -55,6 +55,17 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        .logos-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .logos {
+            border-radius: 10px;
+            background-color: #FCD0B4;
+            margin: 5px;
+            flex: 1 1 18%; /* Ajusta el tamaño de las imágenes */
+        }
         .texto {
             margin-top: 10px;
             font-size: 16px;
@@ -112,12 +123,25 @@
     </style>
 </head>
 <body>
+    <header>
+        <div class="logos-container">
+            <img src="images/logo_01.jpg" alt="Imagen 1">
+            <img src="images/logo_02.jpg" alt="Imagen 2">
+            <img src="images/logo_03.jpg" alt="Imagen 3">
+            <img src="images/logo_04.jpg" alt="Imagen 4">
+            <img src="images/logo_05.jpg" alt="Imagen 5">
+
+
+        </div>
     <h1>Moda Apureña Tu Tienda Online</h1>
     <h2>Ropa para damas, caballeros y niños</h2>
     <h3>Tienda Online exclusiva para todo el estado Apure, Delivery y entrega inmediata</h3>
-
-    <div class="contenedor">
-        <a href="#" class="open-modal" data-info="Medias tobilleras de damas<br> SORELA LADIES ANKLE SOCK <br> talla: 9-11 <br> País de Origen: Indonesia <br> 95% Poliéster y 5% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/a_01.jpg">
+    </header>
+    <nav></nav>
+    <main>
+        <selection>
+        <div class="contenedor">
+            <a href="#" class="open-modal" data-info="Medias tobilleras de damas<br> SORELA LADIES ANKLE SOCK <br> talla: 9-11 <br> País de Origen: Indonesia <br> 95% Poliéster y 5% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/a_01.jpg">
             <img src="images/a_01.jpg" alt="Medias tobilleras de damas" class="imagen">
             <div class="texto">Medias tobilleras de damas
                 <br>Ref:001
@@ -126,8 +150,8 @@
                 <br> 100 docenas 250$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Medias tobilleras de Caballeros<br> OK M MEN SOCK <br> talla: 9-11 <br> País de Origen: China<br> 80% Algodon, 15% poliester y 5% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/b_01.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Medias tobilleras de Caballeros<br> OK M MEN SOCK <br> talla: 9-11 <br> País de Origen: China<br> 80% Algodon, 15% poliester y 5% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/b_01.jpg">
             <img src="images/b_01.jpg" alt="Medias tobilleras de Caballeros" class="imagen">
             <div class="texto">Medias tobilleras de Caballeros
                 <br> Ref:002
@@ -136,18 +160,18 @@
                 <br> 100 docenas 250$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Medias tobilleras de niños<br> VEKO <br> talla: 6-8 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/c_01.jpg">
-            <img src="images/c_01.jpg" alt="Medias tobilleras de niños" class="imagen">
-            <div class="texto">Medias tobilleras de niños
-                <br> Ref: 003
-                <br> 1 docena 3.5$
-                <br> 10 docenas 30$
-                <br> 100 docenas 250$
-            </div>
-            <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Medias tobilleras de niñas<br> DANIA GIRLS <br> talla: 6-8 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/d_01.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Medias tobilleras de niños<br> VEKO <br> talla: 6-8 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/c_01.jpg">
+                <img src="images/c_01.jpg" alt="Medias tobilleras de niños" class="imagen">
+                <div class="texto">Medias tobilleras de niños
+                    <br> Ref: 003
+                    <br> 1 docena 3.5$
+                    <br> 10 docenas 30$
+                    <br> 100 docenas 250$
+                </div>
+                <span class="whatsapp-button">Comprar por WhatsApp</span>
+            </a>
+            <a href="#" class="open-modal" data-info="Medias tobilleras de niñas<br> DANIA GIRLS <br> talla: 6-8 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/d_01.jpg">
             <img src="images/d_01.jpg" alt="Medias tobilleras de niñas" class="imagen">
             <div class="texto">Medias tobilleras de niñas
                 <br> Ref:004
@@ -156,8 +180,8 @@
                 <br> 100 docenas 250$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Medias escolares de niñas (blancas)<br> SORELA GIRLS <br> tallas: S, M, L, XL <br> País de Origen: Indonesia <br> 95% Poliéster y 5% elastano<br>1 docena 8$<br>10 docenas 75$<br>100 docenas 700$" data-img="images/e_01.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Medias escolares de niñas (blancas)<br> SORELA GIRLS <br> tallas: S, M, L, XL <br> País de Origen: Indonesia <br> 95% Poliéster y 5% elastano<br>1 docena 8$<br>10 docenas 75$<br>100 docenas 700$" data-img="images/e_01.jpg">
             <img src="images/e_01.jpg" alt="Medias escolares de niña" class="imagen">
             <div class="texto">Medias escolares de niña
                 <br>Ref:005
@@ -166,8 +190,8 @@
                 <br> 100 docenas 700$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Boxer Juvenil<br> ROCA <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 8.5$<br>10 docenas 80$<br>100 docenas 750$" data-img="images/f_03.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Boxer Juvenil<br> ROCA <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 8.5$<br>10 docenas 80$<br>100 docenas 750$" data-img="images/f_03.jpg">
             <img src="images/f_03.jpg" alt="Boxer juvenil" class="imagen">
             <div class="texto">Boxer juvenil
                 <br>Ref:006
@@ -176,8 +200,8 @@
                 <br> 100 docenas 750$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Cachetero de Damas<br> Varias marcas <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 8.5$<br>10 docenas 80$<br>100 docenas 750$" data-img="images/g_01.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Cachetero de Damas<br> Varias marcas <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 8.5$<br>10 docenas 80$<br>100 docenas 750$" data-img="images/g_01.jpg">
             <img src="images/g_01.jpg" alt="Cachetero de Damas" class="imagen">
             <div class="texto">Cachetero de Damas
                 <br>Ref:007
@@ -186,8 +210,8 @@
                 <br> 100 docenas 750$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Boxer Largo de Caballeros<br> Varias marcas <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 10$<br>10 docenas 98$<br>100 docenas 950$" data-img="images/i_01.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Boxer Largo de Caballeros<br> Varias marcas <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 10$<br>10 docenas 98$<br>100 docenas 950$" data-img="images/i_01.jpg">
             <img src="images/i_01.jpg" alt="Boxer Largo de Caballeros" class="imagen">
             <div class="texto">Boxer Largo de Caballeros
                 <br>Ref:008
@@ -196,8 +220,8 @@
                 <br> 100 docenas 950$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Cachetero juvenil<br> Nuk Girls <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 8.5$<br>10 docenas 80$<br>100 docenas 750$" data-img="images/j_01.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Cachetero juvenil<br> Nuk Girls <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 8.5$<br>10 docenas 80$<br>100 docenas 750$" data-img="images/j_01.jpg">
             <img src="images/j_01.jpg" alt="Cachetero juvenil" class="imagen">
             <div class="texto">Cachetero juvenil
                 <br>Ref:009
@@ -206,8 +230,8 @@
                 <br> 100 docenas 750$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Cachetero de niñas<br> Varias marcas <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 9$<br>10 docenas 85$<br>100 docenas 800$" data-img="images/l_01.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Cachetero de niñas<br> Varias marcas <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 9$<br>10 docenas 85$<br>100 docenas 800$" data-img="images/l_01.jpg">
             <img src="images/l_01.jpg" alt="Cachetero de niñas" class="imagen">
             <div class="texto">Cachetero de niñas
                 <br>Ref:010
@@ -216,38 +240,31 @@
                 <br> 100 docenas 800$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Pantaletas para Damas<br> Alby <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 9.5$<br>10 docenas 90$<br>100 docenas 850$" data-img="images/m_01.jpg">
-            <img src="images/m_01.jpg" alt="Pantaletas para Damas" class="imagen">
-            <div class="texto">Pantaletas para Damas
+            </a>
+            <a href="#" class="open-modal" data-info="Sosten juvenil<br> Varias marcas <br> tallas: variadas <br> País de Origen: China <br> 60% Algodon 30% Poliéster y 10% elastano<br>1 docena 20$<br>10 docenas 195$" data-img="images/k_01.jpg">
+            <img src="images/k_01.jpg" alt="Sosten juvenil" class="imagen">
+            <div class="texto">Sosten juvenil
                 <br>Ref:011
-                <br> 1 docena 9.5$
-                <br> 10 docenas 90$
-                <br> 100 docenas 850$
+                <br> 1 docena 20$
+                <br> 10 docenas 195$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Cachetero de damas<br> Dania <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 9$<br>10 docenas 85$<br>100 docenas 800$" data-img="images/n_01.jpg">
-            <img src="images/n_01.jpg" alt="Cachetero de damas" class="imagen">
-            <div class="texto">Cachetero de damas
-                <br>Ref:012
-                <br> 1 docena 9$
-                <br> 10 docenas 85$
-                <br> 100 docenas 800$
-            </div>
-            <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Cachetero de damas<br> Kiss <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 9$<br>10 docenas 85$<br>100 docenas 800$" data-img="images/o_01.jpg">
-            <img src="images/o_01.jpg" alt="Cachetero de damas" class="imagen">
-            <div class="texto">Cachetero de damas
-                <br>Ref:013
-                <br> 1 docena 9$
-                <br> 10 docenas 85$
-                <br> 100 docenas 800$
-            </div>
-            <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Boxer Corto de Caballeros<br> Varias marcas <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 9$<br>10 docenas 85$<br>100 docenas 800$" data-img="images/t_01.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Hilos para damas<br>Varias marcas<br>Tallas: variadas<br>País de origen: China<br>60% algodón, 30% poliéster y 10% elastano<br>1 docena: $17<br>10 docenas: $165" data-img="images/h_01.jpg">
+                <img src="images/h_01.jpg" alt="Hilos para damas" class="imagen">
+                <div class="texto">Hilos para damas
+                    <br>Ref: 012
+                    <br>1 docena: $17
+                    <br>10 docenas: $165
+                </div>
+                <span class="whatsapp-button">Comprar por WhatsApp</span>
+            </a>
+            
+
+
+
+       
+            <a href="#" class="open-modal" data-info="Boxer Corto de Caballeros<br> Varias marcas <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 9$<br>10 docenas 85$<br>100 docenas 800$" data-img="images/t_01.jpg">
             <img src="images/t_01.jpg" alt="Boxer Corto de Caballeros" class="imagen">
             <div class="texto">Boxer Corto de Caballeros
                 <br>Ref:014
@@ -256,8 +273,8 @@
                 <br> 100 docenas 800$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Boxer de niño<br> Varias marcas <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 8.5$<br>10 docenas 80$<br>100 docenas 750$" data-img="images/p_01.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Boxer de niño<br> Varias marcas <br> tallas: Unica <br> País de Origen: China <br> 90% Poliéster y 10% elastano<br>1 docena 8.5$<br>10 docenas 80$<br>100 docenas 750$" data-img="images/p_01.jpg">
             <img src="images/p_01.jpg" alt="Boxer niños" class="imagen">
             <div class="texto">Boxer de niño
                 <br>Ref:015
@@ -266,8 +283,8 @@
                 <br> 100 docenas 750$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Medias tobilleras de niños<br> Varias marcas <br> talla: 2-4 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/c_02.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Medias tobilleras de niños<br> Varias marcas <br> talla: 2-4 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/c_02.jpg">
             <img src="images/c_02.jpg" alt="Medias tobilleras de niños" class="imagen">
             <div class="texto">Medias tobilleras de niños
                 <br> Ref: 016
@@ -276,8 +293,8 @@
                 <br> 100 docenas 250$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Medias tobilleras de niños<br> Varias marcas <br> talla: 4-6 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/c_03.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Medias tobilleras de niños<br> Varias marcas <br> talla: 4-6 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/c_03.jpg">
             <img src="images/c_03.jpg" alt="Medias tobilleras de niños" class="imagen">
             <div class="texto">Medias tobilleras de niños
                 <br> Ref: 017
@@ -286,8 +303,8 @@
                 <br> 100 docenas 250$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Medias tobilleras de niñas<br> Varias marcas <br> talla: 4-6 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/c_04.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Medias tobilleras de niñas<br> Varias marcas <br> talla: 4-6 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 3.5$<br>10 docenas 30$<br>100 docenas 250$" data-img="images/c_04.jpg">
             <img src="images/c_04.jpg" alt="Medias tobilleras de niños" class="imagen">
             <div class="texto">Medias tobilleras de niñas
                 <br> Ref: 018
@@ -296,8 +313,8 @@
                 <br> 100 docenas 250$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Medias de futbol<br> Varias marcas <br> talla: 10-13 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 12$<br>10 docenas 115$" data-img="images/q_01.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Medias de futbol<br> Varias marcas <br> talla: 10-13 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 12$<br>10 docenas 115$" data-img="images/q_01.jpg">
             <img src="images/q_01.jpg" alt="Medias de fútbol" class="imagen">
             <div class="texto">Medias de fútbol
                 <br> Ref: 019
@@ -305,8 +322,8 @@
                 <br> 10 docenas 115$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Medias de futbol<br> Varias marcas <br> talla: 6-8 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 11$<br>10 docenas 110$" data-img="images/q_02.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Medias de futbol<br> Varias marcas <br> talla: 6-8 <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 11$<br>10 docenas 110$" data-img="images/q_02.jpg">
             <img src="images/q_02.jpg" alt="Medias de fútbol" class="imagen">
             <div class="texto">Medias de fútbol
                 <br> Ref: 020
@@ -314,8 +331,8 @@
                 <br> 10 docenas 110$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Medias de paño de adulto<br> Varias marcas  <br> talla: unica <br> País de Origen: China <br> 96% Algodón y 4% elastano<br>1 docena 8$<br>10 docenas 75$" data-img="images/r_01.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Medias de paño de adulto<br> Varias marcas  <br> talla: unica <br> País de Origen: China <br> 96% Algodón y 4% elastano<br>1 docena 8$<br>10 docenas 75$" data-img="images/r_01.jpg">
             <img src="images/r_01.jpg" alt="Medias de paño de adulto" class="imagen">
             <div class="texto">Medias de paño de adulto
                 <br> Ref: 021
@@ -323,8 +340,8 @@
                 <br> 10 docenas 75$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Medias de vestir de caballero<br> Varias marcas <br> talla: única <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 6$<br>10 docenas 55$" data-img="images/s_01.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Medias de vestir de caballero<br> Varias marcas <br> talla: única <br> País de Origen: China <br> 96% Poliéster y 4% elastano<br>1 docena 6$<br>10 docenas 55$" data-img="images/s_01.jpg">
             <img src="images/s_01.jpg" alt="Medias de vestir de caballero" class="imagen">
             <div class="texto">Medias de vestir de caballero
                 <br> Ref: 022
@@ -332,8 +349,8 @@
                 <br> 10 docenas 55$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
-        </a>
-        <a href="#" class="open-modal" data-info="Medias de paño retro<br> Varias marcas  <br> talla: unica <br> País de Origen: China <br> 96% Algodón y 4% elastano<br>1 docena 15$<br>10 docenas 140$" data-img="images/r_03.jpg">
+            </a>
+            <a href="#" class="open-modal" data-info="Medias de paño retro<br> Varias marcas  <br> talla: unica <br> País de Origen: China <br> 96% Algodón y 4% elastano<br>1 docena 15$<br>10 docenas 140$" data-img="images/r_03.jpg">
             <img src="images/r_03.jpg" alt="Medias de paño retro" class="imagen">
             <div class="texto">Medias de paño de paño retro
                 <br> Ref: 023
@@ -341,6 +358,7 @@
                 <br> 10 docenas 140$
             </div>
             <span class="whatsapp-button">Comprar por WhatsApp</span>
+            </a>
         
       
     </div>
@@ -385,6 +403,13 @@
             });
         });
     </script>
+    </selection>
+    <aside></aside>
+    </main>
+
+    <footer></footer>
+
+
 </body>
 </html>
 
